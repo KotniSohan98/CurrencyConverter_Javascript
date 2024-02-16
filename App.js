@@ -52,10 +52,11 @@ bttn.addEventListener("click", async (evt) => {
 
   //   console.log(fromCurr.value, toCurr.value);
   const URL = `${BASE_URL}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;
+  console.log(URL);
   let response = await fetch(URL);
   let data = await response.json();
   let rate = data[toCurr.value.toLowerCase()];
-  //   console.log(data, rate);
+  // console.log(data, rate);
 
   let finalmount = amtVal * rate;
   //   console.log(finalmount);
