@@ -40,13 +40,6 @@ form input {
   padding-left: 0.5rem;
 }
 
-/* Testing start */
-/* .select-container form option {
-  width: Auto;
-} */
-
-/* Testing ENd */
-
 .dropdown {
   display: flex;
   justify-content: space-between;
